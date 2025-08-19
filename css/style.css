@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
 body {
     background-image: url("../img/fundo.png");
     background-repeat: no-repeat;
@@ -15,4 +28,12 @@ img {
     border-radius: 10px;
     padding: 20px;
     margin: 100px auto 0px auto;
+}
+
+.input-tarefa {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px
 }

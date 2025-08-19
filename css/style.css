@@ -20,6 +20,9 @@ body {
 img {
     width: 25px;
     height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .container {
@@ -36,4 +39,48 @@ img {
     width: 300px;
     height: 40px;
     padding-left: 10px
+}
+
+.button-add-tarefa {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #003329;
+    color: #fff;
+    font-size: 17px;
+    float: right;
+    cursor: pointer;
+}
+
+.button-add-tarefa:hover {
+    opacity: 0.8;
+}
+
+.button-add-tarefa:active {
+    opacity: 0.7;
+}
+
+.lista-tarefas {
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.tarefa {
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.tarefa:hover img {
+    opacity: 1;
+    trans
 }

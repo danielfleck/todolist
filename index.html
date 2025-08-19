@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>TO-DO List</title>
+    <title>To-do list</title>
 </head>
+
 <body>
-    <header>
-        <h1>TO-DO List</h1>
-    </header>
-    <main>
-        <ul data-lista>
-            <li><input data-item type="checkbox">Insira item... <button>Excluir</button></li>
+    <div>
+        <input type="text" placeholder="O que fazer">
+        <button>Adicionar</button>
+        <ul>
+            <li>
+                <img src="./img/checked.png" alt="Check na tarefa">
+                <p>Tarefa número um</p>
+                <img src="./img/trash.png" alt="Exclui tarefa">
+            </li>
         </ul>
-        <div data-novo-item><input type="text" name="item"><button data-adicionar>Add</button></div>
-    </main>
-    <script src="/js/script.js"></script>
+    </div>
 </body>
+
 </html>

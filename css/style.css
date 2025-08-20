@@ -82,5 +82,9 @@ img {
 
 .tarefa:hover img {
     opacity: 1;
-    trans
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    background-color: aqua;
 }
